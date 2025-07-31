@@ -25,7 +25,7 @@ pipeline {
   }
 
   parameters {
-    string(name: 'REGISTRY_HOST', defaultValue: 'host.minikube.internal:5000',
+    string(name: 'REGISTRY_HOST', defaultValue: 'localhost:5000',
            description: 'Self-hosted Docker registry host:port')
     string(name: 'IMAGE_NAME', defaultValue: 'flask-jenkins-demo',
            description: 'Image repository name (no registry prefix)')
