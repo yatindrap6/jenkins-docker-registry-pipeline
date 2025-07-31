@@ -46,6 +46,7 @@ pipeline {
     IMAGE_LATEST = ''
     IMAGE_BUILD  = ''
     IMAGE_COMMIT = ''
+    DOCKERFILE = 'Dockerfile' 
   }
 
   stages {
